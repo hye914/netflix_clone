@@ -46,7 +46,7 @@ export default function Row({ isLarge, title, id, fetchUrl }) {
         <RowTitle>{title}</RowTitle>
         <Swiper
           slidesPerView={title === "NETFLIX ORIGINALS" ? 13 : 6}
-          spaceBetween={20}
+          spaceBetween={100}
           navigation={true}
           modules={[Navigation]}
           className="Swiper"

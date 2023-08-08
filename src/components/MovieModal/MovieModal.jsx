@@ -22,7 +22,7 @@ export default function MovieModal({
   setModalOpen,
 }) {
   return (
-    <ModalContainer>
+    <ModalContainer onClick={() => setModalOpen(false)}>
       <Modal>
         <ModalCloseBtn onClick={() => setModalOpen(false)}>X</ModalCloseBtn>
         <ModalPosterImg
